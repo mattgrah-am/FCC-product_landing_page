@@ -1,0 +1,23 @@
+#page-wrapper {
+  position: relative;
+}
+
+#content {
+  margin-top: 125px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+.spacer {
+  min-height: 1000px;
+}
