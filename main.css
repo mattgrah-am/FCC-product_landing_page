@@ -1,23 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+html,
+body {
+  background-color: #111;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 #page-wrapper {
   position: relative;
 }
 
 #content {
-  margin-top: 125px;
+  margin-top: 200px;
 }
 
 header {
   position: fixed;
   top: 0;
-  min-height: 75px;
-  padding: 0px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #eee;
+  min-height: 150px;
   width: 100%;
+  background-color: #111;
 }
 
-.spacer {
-  min-height: 1000px;
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+.hero {
+  color: #fff;
+  width: 40%;
+  padding-top: 100px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero p {
+  text-align: justify;
+}
+
+.logo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+.info {
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  padding-top: 150px;
+}
+#pricing {
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  padding: 150px 0 100px 0;
+  text-align: center !important;
+}
+
+@media (max-width: 600px) {
+  #pricing {
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 100px 0 100px 0;
+    text-align: center !important;
+  }
+}
+
+.item {
+  padding: 0 5px 0 5px;
+}
+
+.classfont {
+  font-size: 12px;
+}
+
+#contact {
+  color: #fff;
+  width: 40%;
+  margin: auto;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
 }
